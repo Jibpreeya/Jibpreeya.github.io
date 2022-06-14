@@ -1,0 +1,104 @@
+* {
+  margin: 0px;
+}
+
+body {
+  font-family: 'Avenir Next LT Pro', sans-serif;
+  max-width: 1280px;
+  margin: auto;
+}
+
+#banner-container {
+
+  display: flex;
+  align-items: center;
+  padding: 32px 24px;
+  background-color: #d7d7d7;
+}
+
+#banner-container img {
+  width: 60%;
+}
+
+#banner-container #banner-text {
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 24px;
+}
+
+#banner-container #banner-text h1 {
+  margin-top: 24px;
+  color: #4a4a4a;
+}
+
+#banner-container #banner-text p {
+  color: #4a4a4a;
+  margin-top: 24px;
+}
+
+#banner-container #banner-text button {
+  color: white;
+  background-color: #4a4a4a;
+  border: unset;
+  padding: 8px 0px;
+  margin-top: 24px;
+}
+
+/* part2 */
+.part2 {
+  display: flex;
+}
+
+.bannercontwo1 {
+  float:left;
+  padding: 32px 24px;
+  
+}
+
+.bannercontwo1 img{
+  width: 60%;
+  padding: 32px 24px;
+}
+
+.bannercontwo1 .bannertwotext {
+  max-width: 200px;
+  display: inline;
+  flex-direction: column;
+  padding: 32px 24px;
+}
+
+.bannercontwo2 {
+  float: right;
+  padding: 32px 24px;
+  width: 40%;
+  display: block;
+  flex-direction: column;
+}
+
+.bannercontwo2 img {
+  width: 60%;
+}
+ 
+
+/* part3 */
+h1 {
+  text-align: center;
+}
+
+.startlearning {
+  display: flex;
+  align-items: flex-start;
+  align-content: space-between;
+  padding: 32px 72px;
+   
+  
+}
+
+#start {
+  flex-direction: row;
+}
+
+
+
+
